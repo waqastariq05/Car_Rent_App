@@ -7,7 +7,6 @@ import car1 from "../../assets/cars/c1.png"
 import car2 from "../../assets/cars/c2.png"
 import car3 from "../../assets/cars/c3.png"
 import car4 from "../../assets/cars/c4.png"
-import car5 from "../../assets/cars/c5.png"
 import CarsSection from '../CarsSection/CarsSection'
 
 const ModelSection = () => {
@@ -55,13 +54,6 @@ const ModelSection = () => {
                         "Doors: 4",
                         "Seats: 8",
                         "Luggage: 2 Bags",
-                        "Transmission: Automatic"
-                    ]} />
-                    <CarsSection name="VW PassatCC" image={car5} price="15.50" carDetail={[
-                        "Model: Sedan",
-                        "Doors: 2",
-                        "Seats: 2",
-                        "Luggage: 2 Shopping Bags",
                         "Transmission: Automatic"
                     ]} />
                 </div>

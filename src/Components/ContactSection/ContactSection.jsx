@@ -16,15 +16,15 @@ const ContactSection = () => {
             <div className={style.rightBox}>
                 <div className={style.formGroup}>
                     <label htmlFor="name">Full Name</label>
-                    <input type="text" placeholder='Juan Carlos' id='name' />
+                    <input type="text" placeholder='Juan Carlos' id='name' required />
                 </div>
                 <div className={style.formGroup}>
                     <label htmlFor="email">Email Address</label>
-                    <input type="email" placeholder='mail@example.com' id='email' />
+                    <input type="email" placeholder='mail@example.com' id='email' required />
                 </div>
                 <div className={style.formGroup}>
                     <label htmlFor="msg">Tell me about it</label>
-                    <textarea id="msg" cols="30" rows="10" placeholder='Write Here..'></textarea>
+                    <textarea id="msg" cols="30" rows="10" placeholder='Write Here..' required></textarea>
                 </div>
                 <button className='btn'>Send Message</button>
             </div>

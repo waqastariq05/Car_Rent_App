@@ -24,8 +24,10 @@ const Footer = () => {
                 <div>
                     <h1 className={style.title}>Subscription</h1>
                     <p>Subscribe your Email address for latest news & updates.</p>
-                    <input type="text" placeholder='Enter Email Address' />
-                    <button className='btn'>Submit</button>
+                    <form>
+                        <input type="text" placeholder='Enter Email Address' required />
+                        <button className='btn'>Submit</button>
+                    </form>
                 </div>
             </div>
             <div className={style.footerBottem}>
