@@ -1,0 +1,33 @@
+.model {
+    background: url("../../assets/car_tab_bg.png");
+    background-repeat: no-repeat;
+    background-position: 0 85%;
+}
+
+.model .ModelBox {
+    position: relative;
+    padding: 50px 0;
+}
+
+.model .ModelBox .slider {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.model .ModelBox .navigate {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+}
+
+.model .ModelBox .navigate span {
+    font-size: 26px;
+    cursor: pointer;
+    padding: 20px;
+}

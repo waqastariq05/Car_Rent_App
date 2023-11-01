@@ -1,0 +1,63 @@
+.service .serviceCards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+.service .serviceCards .card:nth-child(2) {
+    position: relative;
+}
+
+.service .serviceCards .card:nth-child(2)::before {
+    content: "";
+    position: absolute;
+    left: -20%;
+    top: 30%;
+    transform: translateY(-50%);
+    width: 80px;
+    border: .5px dashed #888;
+}
+
+.service .serviceCards .card:nth-child(2)::after {
+    content: "";
+    position: absolute;
+    right: -20%;
+    top: 30%;
+    transform: translateY(-50%);
+    width: 80px;
+    border: .5px dashed #888;
+}
+
+.service .serviceCards .card {
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.service .serviceCards .card img {
+    margin-bottom: 10px;
+    transition: all .3s ease;
+}
+
+.service .serviceCards .card:hover img {
+    transform: scale(0.8);
+}
+
+.service .serviceCards .card .cardContent h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Rubik';
+    letter-spacing: .5px;
+    margin-bottom: 10px;
+}
+
+.service .serviceCards .card .cardContent p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #777;
+    line-height: 24px;
+    margin-bottom: 0;
+}

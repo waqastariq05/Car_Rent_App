@@ -1,0 +1,80 @@
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    margin-top: 50px;
+}
+
+.about .image {
+    width: 100%;
+}
+
+.about .image img {
+    border-radius: 5px;
+}
+
+.about .content {
+    padding-right: 100px;
+}
+
+.about .content h4 {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Roboto';
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.about .content h2 {
+    font-size: 46px;
+    font-weight: 700;
+    font-family: 'Rubik';
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.about .content p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 0;
+    color: #777;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.about .content .section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.about .content .section div {
+    margin-right: 30px;
+}
+
+.about .content .section img {
+    margin-bottom: 10px;
+}
+
+.about .content .section .text {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.about .content .section .text h2 {
+    margin: 0;
+    font-size: 44px;
+    font-weight: 700;
+    font-family: 'Rubik';
+}
+
+.about .content .section .text span {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #555;
+}

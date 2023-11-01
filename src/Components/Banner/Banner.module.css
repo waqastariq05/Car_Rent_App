@@ -1,0 +1,85 @@
+.banner {
+    display: flex;
+    height: 110vh;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    background-color: #f8f8f8;
+}
+
+/* Left Side */
+.banner .leftSide {
+    padding: 0 120px;
+}
+
+.banner .leftSide h4 {
+    font-size: 24px;
+    font-family: 'Rubik';
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.banner .leftSide h2 {
+    font-size: 52px;
+    font-family: 'Rubik';
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.banner .leftSide h2 span {
+    color: var(--textOrange);
+}
+
+.banner .leftSide p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    margin-bottom: 30px;
+    color: #777;
+}
+
+.banner .leftSide .btnGroup {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+}
+
+.banner .leftSide .learnBtn {
+    font-size: 16px;
+    font-family: 'Rubik';
+    font-weight: 600;
+    color: #fff;
+    background: #000;
+    padding: 16px 30px;
+    border: 2px solid #000;
+    border-radius: 3px;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.banner .leftSide .learnBtn:hover {
+    background-color: transparent;
+    border-color: var(--textOrange);
+    color: var(--textOrange);
+}
+
+/* Right Side */
+.banner .rightSide {
+    background: url('../../assets/banner_image.png');
+    height: 110vh;
+    background-repeat: no-repeat;
+    width: 60%;
+    position: relative;
+}
+
+.banner .rightSide img {
+    position: absolute;
+    top: 50%;
+    left: -30%;
+    transform: translateY(-40%);
+    width: 130%;
+}

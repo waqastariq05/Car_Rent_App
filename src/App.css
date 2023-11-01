@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;600;700&family=Rubik:wght@400;500;600;700&display=swap');
+
+:root {
+    --textOrange: #FF4d30;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+a {
+    text-decoration: none;
+}
+
+.pad-60 {
+    padding: 60px 120px;
+}
+
+.btn {
+    font-size: 16px;
+    font-family: 'Rubik';
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    padding: 16px 26px;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 2px solid var(--textOrange);
+    box-shadow: 0 10px 15px 0 rgba(255, 83, 48, .35);
+    background-image: linear-gradient(to right, #ff4c30, #ff6830, #fff, #f3806f);
+    background-size: 300% 100%;
+    transition: all .3s ease-in-out;
+}
+
+.btn:hover {
+    background-image: linear-gradient(to right, #f0561d, #fff, #ff6830, #f0561d);
+    background-position: 100% 0;
+}

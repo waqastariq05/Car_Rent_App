@@ -1,0 +1,87 @@
+.contact {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+/* Left Box */
+.contact .leftBox {
+    width: 100%;
+    padding: 10px 20px 10px 0;
+}
+
+.contact .leftBox h2 {
+    font-size: 46px;
+    font-weight: 700;
+    font-family: 'Rubik';
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+.contact .leftBox p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #777;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.contact .leftBox ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-right: 200px;
+}
+
+.contact .leftBox ul li {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 15px 0;
+    line-height: 26px;
+}
+
+.contact .leftBox ul li .icon {
+    margin-right: 10px;
+    color: var(--textOrange);
+}
+
+/* Right Box */
+.contact .rightBox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contact .rightBox .formGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact .rightBox .formGroup label {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Roboto';
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.contact .rightBox .formGroup input,
+.contact .rightBox .formGroup textarea {
+    padding: 15px 10px;
+    border: 1px solid #777;
+    border-radius: 3px;
+}
+
+.contact .rightBox .formGroup input:focus,
+.contact .rightBox .formGroup input:focus-within,
+.contact .rightBox .formGroup textarea:focus,
+.contact .rightBox .formGroup textarea:focus-within {
+    border-color: var(--textOrange);
+    outline: none;
+}
+
+.contact .rightBox button {
+    width: 250px;
+}
