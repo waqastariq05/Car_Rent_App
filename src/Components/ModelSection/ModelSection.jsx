@@ -19,7 +19,7 @@ const ModelSection = () => {
 
     const handlePrev = () => {
         let carousel = document.querySelector(".carousel")
-        let width = 1120;
+        let width = 1109;
         carousel.scrollLeft = carousel.scrollLeft - width;
     }
 
