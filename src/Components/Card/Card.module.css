@@ -1,0 +1,89 @@
+.card {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card .image {
+    padding: 20px 0 20px;
+}
+
+.card .image img {
+    width: 100%;
+    transition: all .3s ease;
+}
+
+.card:hover .image img {
+    transform: scale(1.1);
+}
+
+.card .cardBody .title {
+    font-size: 22px;
+    font-family: 'Rubik';
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    transition: all .3s ease;
+}
+
+.card:hover .cardBody .title {
+    color: var(--textOrange);
+}
+
+.card .cardBody ul {
+    list-style: none;
+    margin: 0;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card .cardBody ul li {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Roboto';
+    color: #777;
+}
+
+.card .cardBody ul li .icon {
+    font-size: 15px;
+    color: var(--textOrange);
+    margin-right: 10px;
+}
+
+.card .cardBody .top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.card .cardBody .top h2 {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Rubik';
+    margin: 0;
+    margin-right: 5px;
+}
+
+.card .cardBody .top h5 {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Rubik';
+    text-transform: capitalize;
+    margin: 0;
+    color: var(--textOrange);
+}
+
+.card .cardBody .top a {
+    margin-left: 30px;
+    font-size: 14px;
+    padding: 14px 20px;
+}
