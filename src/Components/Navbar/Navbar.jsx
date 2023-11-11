@@ -23,7 +23,7 @@ const Navbar = () => {
                 <a href="#about" className={activeLink === 3 ? style.active : ""} onClick={() => handleLinkClick(3)}>About</a>
                 <a href="#contact" className={activeLink === 4 ? style.active : ""} onClick={() => handleLinkClick(4)}>Contact</a>
             </nav>
-            <a href="#booking" className={`btn ${style.navBtn}`}>Booking</a>
+            <a href='#booking' className={`btn ${style.navBtn}`}>Booking</a>
         </div>
     )
 }
