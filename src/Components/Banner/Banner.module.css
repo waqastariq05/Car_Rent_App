@@ -7,7 +7,7 @@
     background-color: #f8f8f8;
 }
 
-/* Left Side */
+/*  ================= Left Side Banner ============== */
 .banner .leftSide {
     padding: 0 120px;
 }
@@ -67,7 +67,7 @@
     color: var(--textOrange);
 }
 
-/* Right Side */
+/*  ================= Right Side Banner ============== */
 .banner .rightSide {
     background: url('../../assets/banner_image.png');
     height: 110vh;
@@ -82,4 +82,128 @@
     left: -30%;
     transform: translateY(-40%);
     width: 130%;
+}
+
+/*  ================= Responsiveness ============== */
+@media (max-width: 1199.98px) {
+    .banner .leftSide {
+        padding: 0 100px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .banner .leftSide {
+        padding: 0 40px;
+    }
+
+    .banner .leftSide h4 {
+        font-size: 18px;
+    }
+
+    .banner .leftSide h2 {
+        font-size: 44px;
+    }
+
+    .banner .leftSide p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 830.98px) {
+    .banner .leftSide {
+        width: 100%;
+    }
+
+    .banner .leftSide h4 {
+        font-size: 16px;
+    }
+
+    .banner .leftSide h2 {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+
+    .banner .leftSide p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .banner .rightSide {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .banner {
+        height: 100vh;
+        padding-bottom: 30px;
+    }
+
+    .banner .leftSide {
+        padding: 0 80px;
+    }
+
+    .banner .leftSide h4 {
+        font-size: 24px;
+    }
+
+    .banner .leftSide h2 {
+        font-size: 52px;
+    }
+
+    .banner .leftSide p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .banner .rightSide {
+        display: none;
+    }
+
+}
+
+@media (max-width: 575.98px) {
+    .banner .leftSide {
+        padding: 0 40px;
+    }
+
+    .banner .leftSide h4 {
+        font-size: 20px;
+    }
+
+    .banner .leftSide h2 {
+        font-size: 46px;
+    }
+
+    .banner .leftSide p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .banner .leftSide .btnGroup {
+        flex-direction: column;
+    }
+
+    .banner .leftSide .btnGroup a {
+        width: 100%;
+    }
+}
+
+@media (max-width: 375.98px) {
+    .banner .leftSide {
+        padding: 20px 30px 0;
+    }
+
+    .banner .leftSide h4 {
+        font-size: 18px;
+    }
+
+    .banner .leftSide h2 {
+        font-size: 44px;
+    }
+
+    .banner .leftSide p {
+        font-size: 14px;
+        line-height: 20px;
+    }
 }

@@ -1,7 +1,7 @@
 .bookingBox {
     background-color: #fff;
     background-image: url('../../assets/form_bg.png');
-    width: 75%;
+    width: 90%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -47,7 +47,7 @@
     /* z-index: -1; */
 }
 
-/* Form */
+/*  ================= Form ============== */
 .bookingBox form {
     background: #fff;
     padding: 10px 0;
@@ -117,4 +117,41 @@
 .bookingBox form .formBtn {
     width: 32%;
     padding: 14px 30px;
+}
+
+/*  ================= Responsiveness ============== */
+@media (max-width: 879.98px) {
+    .bookingBox form .formGroup {
+        width: 275px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .bookingBox form .formGroup {
+        width: 100%;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .bookingBox {
+        transform: translateY(-10%);
+    }
+
+    .bookingBox h4 {
+        display: none;
+    }
+
+    .bookingBox {
+        padding: 40px 30px;
+    }
+
+    .bookingBox form .formBtn {
+        width: 100%;
+    }
+}
+
+@media (max-width: 375.98px) {
+    .bookingBox form .formGroup .inputGroup {
+        flex-wrap: wrap;
+    }
 }

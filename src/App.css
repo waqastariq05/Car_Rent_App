@@ -9,7 +9,7 @@ html {
 }
 
 
-body {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -31,6 +31,7 @@ a {
     color: #fff;
     text-transform: uppercase;
     letter-spacing: .5px;
+    text-align: center;
     padding: 16px 26px;
     cursor: pointer;
     border-radius: 3px;
@@ -44,4 +45,28 @@ a {
 .btn:hover {
     background-image: linear-gradient(to right, #f0561d, #fff, #ff6830, #f0561d);
     background-position: 100% 0;
+}
+
+@media (max-width: 1199.98px) {
+    .pad-60 {
+        padding: 60px 100px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .pad-60 {
+        padding: 60px 80px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .pad-60 {
+        padding: 60px 40px;
+    }
+}
+
+@media (max-width: 375.98px) {
+    .pad-60 {
+        padding: 60px 30px;
+    }
 }

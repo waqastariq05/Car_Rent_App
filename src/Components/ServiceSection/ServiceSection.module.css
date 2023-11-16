@@ -61,3 +61,45 @@
     line-height: 24px;
     margin-bottom: 0;
 }
+
+/*  ================= Responsiveness ============== */
+@media (max-width: 1024.98px) {
+    .service .serviceCards .card:nth-child(2)::before {
+        left: -30%;
+    }
+
+    .service .serviceCards .card:nth-child(2)::after {
+        right: -30%;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .service .serviceCards {
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    .service .serviceCards .card {
+        flex-basis: 30%;
+    }
+
+    .service .serviceCards .card:nth-child(2)::before {
+        display: none;
+    }
+
+    .service .serviceCards .card:nth-child(2)::after {
+        display: none;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .service .serviceCards .card {
+        flex-basis: 100%;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .service .serviceCards {
+        gap: 20px;
+    }
+}

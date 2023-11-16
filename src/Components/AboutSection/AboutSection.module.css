@@ -10,10 +10,12 @@
 }
 
 .about .image img {
+    width: 100%;
     border-radius: 5px;
 }
 
 .about .content {
+    width: 100%;
     padding-right: 100px;
 }
 
@@ -48,10 +50,7 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 40px;
-}
-
-.about .content .section div {
-    margin-right: 30px;
+    gap: 50px;
 }
 
 .about .content .section img {
@@ -76,4 +75,166 @@
     font-size: 16px;
     font-weight: 600;
     color: #555;
+}
+
+/* =============== Responsive ====================== */
+@media (max-width: 1199.98px) {
+    .about .content {
+        padding-right: 50px;
+    }
+
+    .about .content h4 {
+        font-size: 20px;
+    }
+
+    .about .content h2 {
+        font-size: 40px;
+    }
+
+    .about .content p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .about .content .section .text {
+        gap: 10px;
+    }
+
+    .about .content .section .text h2 {
+        font-size: 34px;
+    }
+
+    .about .content .section .text span {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .about {
+        align-items: start;
+        gap: 50px;
+    }
+
+    .about .content {
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 870.98px) {
+    .about .content h4 {
+        font-size: 16px;
+    }
+
+    .about .content h2 {
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
+
+    .about .content p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .about .content .section {
+        gap: 30px;
+        margin-top: 20px;
+    }
+
+    .about .content .section img {
+        width: 40px;
+    }
+
+    .about .content .section .text h2 {
+        font-size: 30px;
+    }
+
+    .about .content .section .text span {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .about {
+        flex-flow: row wrap;
+        gap: 50px;
+    }
+
+    .about .image img {
+        width: 100%;
+    }
+
+    .about .content {
+        padding: 0;
+    }
+
+    .about .content h4 {
+        font-size: 22px;
+    }
+
+    .about .content h2 {
+        font-size: 46px;
+        margin-bottom: 30px;
+    }
+
+    .about .content p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .about .content .section {
+        gap: 30px;
+        margin-top: 40px;
+    }
+
+    .about .content .section img {
+        width: auto;
+    }
+
+    .about .content .section .text h2 {
+        font-size: 44px;
+    }
+
+    .about .content .section .text span {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 425.98px) {
+    .about .content h4 {
+        font-size: 16px;
+    }
+
+    .about .content h2 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    .about .content p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .about .content .section {
+        flex-flow: row wrap;
+        gap: 10px;
+        row-gap: 30px;
+        margin-top: 30px;
+    }
+
+    .about .content .section div {
+        flex-basis: 5%;
+    }
+
+    .about .content .section .text {
+        gap: 15px;
+    }
+
+    .about .content .section .text h2 {
+        font-size: 40px;
+    }
+
+    .about .content .section .text span {
+        font-size: 15px;
+    }
+
 }

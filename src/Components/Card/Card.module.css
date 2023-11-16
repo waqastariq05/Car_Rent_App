@@ -42,7 +42,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 30px;
 }
 
 .card .cardBody ul li {
@@ -61,29 +61,73 @@
 .card .cardBody .top {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 10px;
 }
 
 .card .cardBody .top h2 {
+    width: 100%;
     font-size: 18px;
     font-weight: 700;
     font-family: 'Rubik';
     margin: 0;
-    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
 }
 
-.card .cardBody .top h5 {
+.card .cardBody .top h2 span {
     font-size: 14px;
     font-weight: 700;
     font-family: 'Rubik';
     text-transform: capitalize;
-    margin: 0;
+    margin-left: 5px;
     color: var(--textOrange);
 }
 
 .card .cardBody .top a {
+    width: 100%;
     margin-left: 30px;
     font-size: 14px;
     padding: 14px 20px;
+}
+
+
+/* ============= Responsive ================= */
+@media (max-width: 991.98px) {
+    .card {
+        flex-basis: 45%;
+    }
+}
+
+
+@media (max-width: 767.98px) {
+    .card {
+        flex-basis: 100%;
+    }
+}
+
+@media (max-width: 425.98px) {
+    .card {
+        padding: 20px 15px;
+    }
+
+    .card .cardBody ul li {
+        font-size: 15px;
+    }
+
+    .card .cardBody .top {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .card .cardBody .top h2 {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .card .cardBody .top a {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
 }

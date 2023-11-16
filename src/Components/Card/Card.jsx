@@ -19,8 +19,7 @@ const CarsSection = ({ name, image, price, carDetail }) => {
                         <li><i className={`${style.icon} fa-solid fa-check`}></i> {carDetail.luggage}</li>
                     </ul>
                     <div className={style.top}>
-                        <h2>$ {price}</h2>
-                        <h5> / per day</h5>
+                        <h2>$ {price} <span> / per day</span></h2>
                         <a href="#booking" className='btn'>Book Ride</a>
                     </div>
                 </div>

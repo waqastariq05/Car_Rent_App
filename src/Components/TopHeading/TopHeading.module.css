@@ -19,3 +19,26 @@
     font-weight: 800;
     text-transform: capitalize;
 }
+
+
+/*  ================= Responsiveness ============== */
+@media (max-width: 767.98px) {
+    .heading h4 {
+        font-size: 22px;
+    }
+
+    .heading h2 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .heading h4 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .heading h2 {
+        font-size: 34px;
+    }
+}

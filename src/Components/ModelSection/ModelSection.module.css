@@ -11,3 +11,15 @@
     align-items: center;
     gap: 30px;
 }
+
+/* ================ Responsive ================ */
+@media (max-width: 991.98px) {
+    .model {
+        background-position: 0 center;
+    }
+
+    .model .ModelBox {
+        padding: 30px 0;
+        flex-flow: row wrap;
+    }
+}

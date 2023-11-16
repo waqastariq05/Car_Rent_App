@@ -4,7 +4,7 @@
     gap: 30px;
 }
 
-/* Left Box */
+/* =============== Left Box =================*/
 .contact .leftBox {
     width: 100%;
     padding: 10px 20px 10px 0;
@@ -45,7 +45,7 @@
     color: var(--textOrange);
 }
 
-/* Right Box */
+/* =============== Right Box =================*/
 .contact .rightBox {
     width: 100%;
     display: flex;
@@ -84,4 +84,73 @@
 
 .contact .rightBox button {
     width: 250px;
+}
+
+/* =============== Responsive =================*/
+@media (max-width: 991.98px) {
+    .contact .leftBox h2 {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+
+    .contact .leftBox p {
+        font-size: 14px;
+    }
+
+    .contact .leftBox ul {
+
+        padding-right: 100px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .contact {
+        flex-flow: row wrap;
+    }
+
+    .contact .leftBox h2 {
+        font-size: 46px;
+        margin-bottom: 20px;
+    }
+
+    .contact .leftBox p {
+        font-size: 16px;
+    }
+
+    .contact .leftBox ul {
+        padding-right: 0;
+    }
+}
+
+
+@media (max-width: 575.98px) {
+    .contact .leftBox h2 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .contact .leftBox p {
+        font-size: 15px;
+    }
+
+    .contact .rightBox .formGroup label {
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width: 375.98px) {
+    .contact .leftBox h2 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    .contact .leftBox p {
+        font-size: 14px;
+    }
+
+    .contact .rightBox button {
+        width: 100%;
+    }
+
 }
