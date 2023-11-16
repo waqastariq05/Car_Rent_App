@@ -59,6 +59,7 @@
     border-radius: 3px;
     transition: all .3s ease;
     cursor: pointer;
+    text-align: center;
 }
 
 .banner .leftSide .learnBtn:hover {

@@ -35,7 +35,7 @@ const Navbar = () => {
                     <a href="#contact" className={activeLink === 4 ? style.active : ""} onClick={() => handleLinkClick(4)}>Contact</a>
                 </nav>
                 <div className={style.navbar_btn}>
-                    <a href='#booking' className={`btn ${style.navBtn}`}>Booking</a>
+                    <a href='#booking' className={`btn ${style.navBtn}`} onClick={() => setToggle(false)}>Booking</a>
                 </div>
             </div>
         </div>
